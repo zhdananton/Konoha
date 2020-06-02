@@ -1,0 +1,47 @@
+#hero {
+	height: 50px;
+	width: 50px;
+	border: 2px black solid;
+	position: absolute;
+	left: 900px;
+	top: 450px;
+	background-image: url(333.gif);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.sword {
+	height: 50px;
+	width: 50px;
+	border: 2px green solid;
+	position: absolute;
+		background-image: url(s.gif);
+	background-repeat: no-repeat;
+	background-size: 50px;
+}
+
+.enemy {
+	background-image: url(d.gif);
+	background-repeat: no-repeat;
+	background-size: 50px;
+	height: 50px;
+	width: 50px;
+	border: 2px red solid;
+	position: absolute;
+	display: inline-block;
+}
+
+#map {
+	display: none;
+	margin-left: 50px;
+	top: 0px;
+	height: 950px;
+	width: 1750px;
+
+	background:
+		linear-gradient(green, transparent 3px),
+		linear-gradient(90deg, green, transparent 3px);
+	background-size: 50px 50px;
+	background-color: #7fff00;
+	display: inline-block;
+}
